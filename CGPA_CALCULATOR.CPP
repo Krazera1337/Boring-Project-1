@@ -26,14 +26,11 @@ cout << "Enter Grades : ";
 cin >> grade;
 
 switch(toupper(grade)) {
-case 'A' : gradeValue = 4.0; break;
-case 'A-' : gradeValue = 3.67; break;
-case 'B+' : gradeValue = 3.33; break;
-case 'B' : gradeValue = 3.0; break;
-case 'B-' : gradeValue = 2.67; break;
-case 'C+' : gradeValue = 2.33; break;
-case 'C' : gradeValue = 2.0; break;
-case 'F' : gradeValue = 0.0; break;
+case 'A': gradeValue = 4.0; break;
+case 'B': gradeValue = 3.0; break;
+case 'C': gradeValue = 2.0; break;
+case 'D': gradeValue = 1.0; break;
+case 'F': gradeValue = 0.0; break;
 default: 
 cout << "Invalid Grade Entered" << endl;
 }
