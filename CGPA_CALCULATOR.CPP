@@ -22,8 +22,8 @@ cout << "Enter Subject Name: ";
 cin >> subject;
 cout << "Enter Credit Hours: ";
 cin >> credits;
-cout << "Enter Grades (A , B , C , D , E , F): ";
-cin >> grades;
+cout << "Enter Grades : ";
+cin >> grade;
 
 switch(toupper(grade)) {
 case 'A' : gradeValue = 4.0; break;
