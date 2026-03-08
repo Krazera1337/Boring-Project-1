@@ -22,7 +22,7 @@ cout << "Enter Subject Name: ";
 cin >> subject;
 cout << "Enter Credit Hours: ";
 cin >> credits;
-cout << "Enter Grades : ";
+cout << "Enter Grades (A, B , C , D, F) : ";
 cin >> grade;
 
 switch(toupper(grade)) {
@@ -44,7 +44,7 @@ double gpa = totalPoints / totalCredits;
 cout << "\n================================" << endl;
 cout << "Total Credits: " << totalCredits << endl;
 cout << "Your GPA is "<< gpa << endl;
-cout << "==============================" << endl;
+cout << "================================" << endl;
 } else {
 cout << "No credits entered, cannot calculate GPA." << endl;
 }
